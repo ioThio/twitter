@@ -1,0 +1,46 @@
+@font-face {
+    font-family: 'saginaw_light';
+    src: url('saginawlight-webfont.woff2') format('woff2'),
+         url('saginawlight-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body{
+  margin-top: 10%;
+  font-size: 200%;
+  text-align: center;
+  background-color: #fffdf9;
+  color: #ffe3ed;
+}
+
+
+
+span {
+  font-family: 'saginaw_light' !important;
+  font-weight: normal;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 300%;
+  color: #beebe9;
+}
+
+img {
+  width: 7%;
+  margin-right: 3%;
+}
+
+.button {
+  margin-top: 50px;
+  font-size: 30px;
+  color: #9be3de;
+  opacity: 0.8;
+  border-radius: 100%;
+  background-color: #ffe3ed;
+}
+
+#TextSearch {
+  width: 20%;
+}
