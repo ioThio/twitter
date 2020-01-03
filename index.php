@@ -15,8 +15,6 @@
     Search <img src="twitter.png" alt="twitter image"><span>Twitter</span> for: <br>
 
 
-<!-- <input id="TextSearch" type="text" name="keyword" />
-<input type="button" class="button" id="SearchButton" value="Go!" /> -->
 
   <form method="get" action="" class="search-bar">
   	<input type="search" name="keyword" pattern=".*\S.*" required="required">
@@ -24,20 +22,16 @@
   		<span>Search</span>
   	</button>
   </form>
-<!-- </div> -->
-
-
-<!-- <div class="content"> -->
 
   <?php
   // ini_set('display_errors','1');
   require_once('TwitterAPIExchange.php');
 
   $settings = array(
-  'oauth_access_token' => "1206684657686917122-Pz4RCwIW051u1uqsjSKlD5T3w8c2YW",
-  'oauth_access_token_secret' => "M1QN8j0uFl0QZLpniKDjz8dGgBVFlcgAnqJGEFMnJ8WsX",
-  'consumer_key' => "pqc8834zdCU4Pq8VIm5OmepwJ",
-  'consumer_secret' => "hTTZmIkL4vCVi7dHqeU2p2LT58ohwtawwJDGTjhVlkTBaNOCvr"
+  'oauth_access_token' => "access_token",
+  'oauth_access_token_secret' => "access_token_secret",
+  'consumer_key' => "consumer_key",
+  'consumer_secret' => "consumer_secret"
   );
   $url = "https://api.twitter.com/1.1/search/tweets.json";
   $requestMethod = "GET";
